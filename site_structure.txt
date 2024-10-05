@@ -1,0 +1,12 @@
+├── index.html        (Landing page)
+├── about.html        (About me page)
+├── blog.html         (Blog page)
+├── photos.html       (Photos page)
+├── cv.html           (CV page)
+├── research.html     (Work/Research page)
+├── assets
+    └── css
+        └── styles.css  (CSS for styling)
+    └── images          (Images folder)
+    └── js
+        └── script.js   (Optional JavaScript)
