@@ -18,8 +18,8 @@ body {
 
 /* Sidebar styling */
 .sidebar {
-    width: 20%;
-    background-color: #333;
+    width: 10%;
+    background-color: rgba(51, 51, 51, 0.8); /* 80% opacity */
     color: white;
     padding: 20px;
     display: flex;
@@ -54,10 +54,11 @@ body {
 /* Main content area styling */
 .main-content {
     width: 80%;
+    background: url('assets/images/profile.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire area */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
 }
 
 /* Profile picture styling */
