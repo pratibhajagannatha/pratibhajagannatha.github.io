@@ -1,41 +1,68 @@
-/* Basic styling for the website */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+/* Container for the layout */
+.container {
+    display: flex;
+    height: 100vh;
 }
 
-nav ul {
+/* Sidebar styling */
+.sidebar {
+    width: 20%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+.sidebar ul li {
+    margin: 15px 0;
 }
 
-nav ul li a {
-    color: #fff;
+.sidebar ul li a {
+    color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
-section {
-    padding: 20px;
-    background: #fff;
-    margin: 10px;
+.sidebar ul li a:hover {
+    text-decoration: underline;
 }
 
-h1, h2 {
-    color: #333;
+/* Main content area styling */
+.main-content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
 }
 
+/* Profile picture styling */
+.profile-pic {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
