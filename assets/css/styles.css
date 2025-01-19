@@ -320,10 +320,3 @@ label[for="nav-footer-toggle"]
     justify-content: center;
     align-items: center;
 }
-
-/* Profile picture styling */
-.profile-pic {
-    width: 60%;
-    height: auto;
-    border-radius: 10px;
-}
